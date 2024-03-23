@@ -6,6 +6,6 @@
    1. [V8엔진 히든클래스와 인라인 캐싱 - V8엔진에 대해 이해한 내용을 바탕으로 A에서 작성한 코드의 성능을 개선하기](./packages/chapter1/src/a.js)
 
 2. React 파헤치기
-   1. [React의 동작방식 - React와 유사한 렌더링 시스템 만들기](./packages/chapter2/src/a.js)
-   2. [React Hooks의 이점 - useState, useMemo 만들기](./packages/chapter2/src/b.js)
-   3. [React 동시성 렌더링 - 나만의 React 만들기 ](./packages/chapter2/src/c.js)
+   1. [React의 동작방식 - React와 유사한 렌더링 시스템 만들기](./packages/chapter2/src/render.js)
+   2. [React Hooks의 이점 - useState, useMemo 만들기](./packages/chapter2/src/hooks.js)
+   3. [React 동시성 렌더링 - 나만의 React 만들기 ](./packages/chapter2/src/MyReact.js)
