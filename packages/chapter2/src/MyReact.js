@@ -1,3 +1,4 @@
+// good code
 import { createHooks } from "./hooks";
 import { render as updateElement } from "./render";
 
@@ -6,7 +7,7 @@ function MyReact() {
     $root: null,
     rootComponent: null,
     currentNode: null,
-    beforeNode: null,
+    // beforeNode: null,
   };
 
   const _render = () => {
@@ -15,7 +16,7 @@ function MyReact() {
     updateElement(renderContext.$root, currentNode, renderContext.currentNode);
     resetHookContext();
 
-    renderContext.beforeNode = renderContext.currentNode;
+    // renderContext.beforeNode = renderContext.currentNode;
     renderContext.currentNode = currentNode;
   };
 
